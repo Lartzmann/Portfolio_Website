@@ -26,13 +26,13 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-4 max-w-6xl mx-auto">
+    <div id="skills" className="py-4 max-w-6xl mx-auto">
       <h1 className="text-3xl text-center font-bold mb-8">Skills</h1>
 
       <SkillsCategory title="Frontend" skills={frontendSkills} />
       <SkillsCategory title="Backend" skills={backendSkills} />
       <SkillsCategory title="Tools" skills={tools} />
-    </section>
+    </div>
   );
 };
 

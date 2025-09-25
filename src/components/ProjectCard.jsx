@@ -1,6 +1,6 @@
 const ProjectCard = ({ image, title, description, demoLink, codeLink }) => {
   return (
-    <div className="shadow-md rounded-md overflow-hidden flex flex-col max-w-sm">
+    <div className="shadow-md bg-[#243248] rounded-md overflow-hidden flex flex-col max-w-sm">
       <img src={image} alt={title} className="w-full bg-[#3f4c60] h-48 object-cover" />
       <div className="p-4 flex-1 flex flex-col">
         <h3 className="text-lg font-semibold mb-2">{title}</h3>
