@@ -1,5 +1,4 @@
-import ProjectCard from "./ProjectCard";
-// import ProjectImg from "../assets/project-placeholder.jpg"; // replace with real project images
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   const projects = [

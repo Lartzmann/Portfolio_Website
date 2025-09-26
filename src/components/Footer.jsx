@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaEnvelope } from "react-
 
 const Footer = () => {
   return (
-    <footer id="contact" className="bg-gradient-to-t from-[#0f172a] to-[#1e293b] text-gray-400 py-8 mt-16 ">
+    <footer id="contact" className="bg-gradient-to-t from-[#0f172a] to-[#1e293b] text-gray-400 py-14 mt-16 ">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center gap-4">
         {/* Name */}
         <h2 className="text-white text-xl font-bold">Emmanuel Teye Lartey</h2>

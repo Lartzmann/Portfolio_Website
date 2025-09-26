@@ -1,16 +1,18 @@
 import './App.css'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
+import Hero from './pages/Hero'
+import About from './pages/About'
+import Skills from './pages/Skills'
+import Projects from './pages/Projects'
 import Footer from './components/Footer'
+import NavBar from './components/navbar'
 
 function App() {
   
 
   return (
     <>
-    <div className="px-[25px]">
+    <NavBar />
+    <div className="px-[25px] w-full">
       <Hero />
       <Skills />
       <Projects />

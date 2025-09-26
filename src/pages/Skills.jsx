@@ -2,7 +2,7 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiExpress, SiMongodb, SiGit, SiGithub } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import SkillsCategory from "./SkillsCategory";
+import SkillsCategory from "../components/SkillsCategory";
 
 const Skills = () => {
   const frontendSkills = [
