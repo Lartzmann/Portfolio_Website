@@ -35,16 +35,16 @@ const Footer = () => {
           >
             <FaLinkedin />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/your-username"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"
           >
             <FaTwitter />
-          </a>
+          </a> */}
           <a
-            href="https://instagram.com/your-username"
+            href="https://www.instagram.com/_lartzmann.19/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"

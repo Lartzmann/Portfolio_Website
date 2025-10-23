@@ -9,9 +9,12 @@ function About() {
                 <h1 className="text-2xl font-semibold mb-2">About Me</h1>
 
                 <p className="text-md text-[#94a3b8] mb-4">
-                    I’m Emmanuel Teye Lartey, a full-stack developer passionate about building
-                    modern, user-friendly web applications. My goal is to create scalable
-                    solutions that combine clean design with efficient code.
+                    I’m Emmanuel Teye Lartey, a full-stack developer with a strong interest in crafting
+                    modern, user-friendly web experiences. While I’m capable of developing end-to-end
+                    applications, I’m currently focused on sharpening my frontend skills—especially
+                    building dynamic interfaces with <span className="font-semibold">React</span> and related tools.
+                    My goal is to deliver clean, scalable, and visually engaging solutions that make a
+                    lasting impact.
                 </p>
 
                 <p className="text-md text-[#94a3b8] mb-4">
@@ -24,7 +27,7 @@ function About() {
                 <p className="text-md text-[#94a3b8] mb-4">
                     I also completed my national service at the
                     <span className="font-semibold"> Ministry of Finance</span>, where I contributed to Sustainable Development Goals
-                    (SDG)-related projects. This role deepened my experience in data-driven applications and collaborative problem-solving,
+                    (SDG) related projects. This role deepened my experience in data-driven applications and collaborative problem-solving,
                     bridging technology with national development efforts.
                 </p>
 

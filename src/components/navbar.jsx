@@ -10,8 +10,8 @@ function NavBar() {
         <>
             {/* Navbar */}
             <div className="flex justify-between items-center p-6 bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow-lg">
-                <h1 className="font-bold text-2xl">
-                    <span className="text-[#3b82f6]">Lartzmann</span>.dev()
+                <h1 className="font-bold text-3xl text-[#3b82f6]">
+                    {"<Lartzmann />"}
                 </h1>
 
                 {/* Desktop Nav */}
@@ -37,15 +37,17 @@ function NavBar() {
                     onClick={toggleMenu}
                     className="text-2xl hover:cursor-pointer hover:scale-120 transition duration-200 ease-in-out md:hidden"
                 >
-                    {menuOpen ? <IoClose /> : <GiHamburgerMenu />}
+                    <GiHamburgerMenu />
                 </button>
             </div>
 
             {menuOpen && (
+            <div className='fixed inset-0 bg-black/50 z-50'>
             <nav
-                className="absolute top-16 right-4 z-50 bg-[#1e293b] text-white p-6rounded-xl shadow-2xl w-56 animate-fade-in-up p-6"
+                className="absolute top-6 right-0 z-50 bg-[#1e293b] text-white rounded-x w-60 p-6"
             >
                 <ul className="flex flex-col gap-4 text-lg">
+                <li onClick={toggleMenu} className='text-right'><IoClose className='w-10 h-10'/></li>
                 <li>
                     <a href="#skills" onClick={toggleMenu} className="hover:text-[#3b82f6] transition-colors">
                     Skills
@@ -67,7 +69,9 @@ function NavBar() {
                     </a>
                 </li>
                 </ul>
-            </nav>
+            </nav>                
+            </div>
+
             )}
         </>
     )

@@ -11,7 +11,7 @@ function Hero() {
             <img
               src={HeroImg}
               alt="Hero Image"
-              className="w-55 h-65 rounded-full mb-8 animate-fade-in-up [animation-delay:200ms]"
+              className="w-50 h-65 rounded-full mb-8 animate-fade-in-up [animation-delay:200ms]"
             />
           </div>
           <div className="mb-8 text-center">
@@ -24,12 +24,20 @@ function Hero() {
           </div>
           <div className="flex justify-center animate-fade-in-up [animation-delay:800ms]">
             <div className="flex flex-col w-full sm:w-[80%] ">
-              <button className="px-4 py-3 bg-white text-black rounded-lg mb-4 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out">
+              {/* View projects Button */}              
+              <a 
+              href="#projects"
+              className="px-4 py-3 bg-white text-black text-center rounded-lg mb-4 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out">
                 View Projects
-              </button>
-              <button id="#projects" className="bg-[#3b82f6] text-white rounded-lg px-4 py-3 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out">
+              </a>
+              {/* Download CV Button */}
+              <a
+                href="/CV-LinkedIn-Emmanuel.docx"
+                download="CV-LinkedIn-Emmanuel.docx"
+                className="bg-[#3b82f6] text-white text-center rounded-lg px-4 py-3 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out"
+              >
                 Download CV
-              </button>
+              </a>
             </div>
           </div>
         </main>
