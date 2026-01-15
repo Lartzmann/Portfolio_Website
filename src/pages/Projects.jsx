@@ -2,8 +2,9 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectImg3 from "../assets/Todo_UI.png"
 import ProjectImg1 from "../assets/advice_thumb.png"
 import ProjectImg2 from "../assets/age_thumb.png"
-import ComingSoonImg from "../assets/coming-soon.jpg"
+// import ComingSoonImg from "../assets/coming-soon.jpg"
 import ProjectImg4 from "../assets/music-store.png"
+import ProjectImg5 from "../assets/nexcore-technology.png"
 
 const Projects = () => {
   const projects = [
@@ -41,13 +42,21 @@ const Projects = () => {
       codeLink: "#",
     },    
     {
-      image: ComingSoonImg,
-      title: "Lit Caterer – Coming Soon",
+      image: ProjectImg5,
+      title: "NexCore Technology",
       description:
-        "Lit Caterer is a food vendor management platform designed to connect users with a nearby vendor seamlessly. Built with React, Vite, and Tailwind CSS, it focuses on smooth ordering experiences, mobile responsiveness, and clean UI. The project is currently in development — stay tuned!",
-      // demoLink: "#",
+        "Nexcore Technology is a modern tech startup website designed to present a forward-thinking digital brand. The project focuses on clean UI, performance, and responsiveness, built using Next.js for optimized rendering and Tailwind CSS for scalable, utility-first styling. It demonstrates strong component structuring, responsive layouts, and attention to modern web design standards.",
+      demoLink: "https://nexcore-technology-lartzmanns-projects.vercel.app/",
       codeLink: "#",
-    },
+    },    
+    // {
+    //   image: ComingSoonImg,
+    //   title: "Lit Caterer – Coming Soon",
+    //   description:
+    //     "Lit Caterer is a food vendor management platform designed to connect users with a nearby vendor seamlessly. Built with React, Vite, and Tailwind CSS, it focuses on smooth ordering experiences, mobile responsiveness, and clean UI. The project is currently in development — stay tuned!",
+    //   // demoLink: "#",
+    //   codeLink: "#",
+    // },
 
     // {
     // //   image: ProjectImg,
