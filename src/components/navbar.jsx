@@ -9,25 +9,27 @@ function NavBar() {
     return (
         <>
             {/* Navbar */}
-            <div className="flex justify-between items-center p-6 bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow-lg">
+            <div className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow-lg">
                 <h1 className="font-bold text-3xl text-[#3b82f6]">
                     {"<Lartzmann />"}
                 </h1>
-
-                {/* Desktop Nav */}
-                <nav className="hidden md:block">
+                
+                <nav className="hidden md:block p-4">
                     <ul className="flex justify-between list-none">
-                    <li className="px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer">
-                        <a href="#skills">Skills</a>
+                    <li>
+                        <a className='px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer text-lg' href="#hero">Home</a>
                     </li>
-                    <li className="px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer">
-                        <a href="#projects">Projects</a>
+                    <li>
+                        <a className='px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer text-lg' href="#skills">Skills</a>
                     </li>
-                    <li className="px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer">
-                        <a href="#about">About Me</a>
+                    <li>
+                        <a className='px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer text-lg' href="#projects">Projects</a>
                     </li>
-                    <li className="px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer">
-                        <a href="#contact">Contact</a>
+                    <li>
+                        <a className='px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer text-lg' href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a className='px-4 py-2 hover:text-[#3b82f6] hover:cursor-pointer text-lg' href="#contact">Contact</a>
                     </li>
                     </ul>
                 </nav>

@@ -1,13 +1,14 @@
 import HeroImg from "../assets/Lartzmann.jpg";
+import { LuDownload } from "react-icons/lu";
 
 
 function Hero() {
   return (
     <>
-      <div className="max-w-7xl mx-auto h-vh lg:h-dvh">
+      <div id="hero" className="max-w-7xl mx-auto lg:h-dvh">
         {/* Hero Section */}
-        <main className="w-full lg:w-[60%] mx-auto  py-15">
-          <div className="flex justify-center ">
+        <main className="w-full lg:w-[60%] mx-auto py-15">
+          <div className="flex justify-center">
             <img
               src={HeroImg}
               alt="Hero Image"
@@ -34,9 +35,10 @@ function Hero() {
               <a
                 href="/CV-Portfolio-Emmanuel.docx"
                 download="CV-Portfolio-Emmanuel.docx"
-                className="bg-[#3b82f6] text-white text-center rounded-lg px-4 py-3 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out"
+                className="bg-[#3b82f6] text-white text-center rounded-lg px-4 py-3 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out flex justify-center items-center gap-3"
               >
                 Download CV
+                <LuDownload size={18} className="group-hover:translate-x-1 transition-transform"/>
               </a>
             </div>
           </div>

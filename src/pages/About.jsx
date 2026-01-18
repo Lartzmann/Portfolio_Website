@@ -6,7 +6,7 @@ function About() {
         <>
             <div id="about" className="text-center max-w-6xl mx-auto font-light scroll-mt-20">
                 {/* About Me */}
-                <h1 className="text-2xl font-semibold mb-2">About Me</h1>
+                <h1 className="text-2xl md:text-4xl font-semibold mb-2 py-8">About Me</h1>
 
                 <p className="text-md text-[#94a3b8] mb-4">
                     I’m Emmanuel Teye Lartey, a full-stack developer with a strong interest in crafting
@@ -36,7 +36,7 @@ function About() {
                 </p>
 
                 {/* Education Section */}
-                <h2 className="text-2xl font-semibold mb-6">Education</h2>
+                <h2 className="text-2xl md:text-4xl font-semibold mb-6 py-8">Education</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {/* Card 1 */}
                     <div>
