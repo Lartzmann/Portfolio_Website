@@ -179,7 +179,7 @@ const Footer = () => {
 
   return (
     // <footer className="bg-slate-950 border-t border-slate-800/60">
-      <footer className="relative bg-gradient-to-t from-slate-900 via-slate-850 to-[#1e293b] text-gray-400 py-8 mt-10 ">
+      <footer className="relative bg-gradient-to-t from-slate-900 via-slate-850 to-[#1e293b] text-gray-400">
       {/* <footer className="relative bg-gradient-to-t from-[#0f172a] to-[#1e293b] text-gray-400 py-8 mt-10 "> */}
       <div className="max-w-7xl mx-auto px-6 py-16 lg:py-12">
         {/* Main content */}
@@ -189,15 +189,15 @@ const Footer = () => {
             <h3 className="text-white text-xl font-semibold tracking-tight mb-4">
               Emmanuel Teye Lartey
             </h3>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
+            <p className="text-slate-400 text-md leading-relaxed max-w-xs">
               Frontend developer crafting thoughtful digital experiences with clean code and modern design.
             </p>
           </div>
 
           {/* Quick links */}
           <div className="md:justify-self-center">
-            <h4 className="text-slate-300 font-medium mb-5">Navigation</h4>
-            <ul className="space-y-3 text-sm">
+            <h4 className="text-xl text-slate-300 font-medium mb-5">Navigation</h4>
+            <ul className="space-y-2 text-md">
               {['About', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <li key={item}>
                   <a
@@ -213,7 +213,7 @@ const Footer = () => {
 
           {/* Social & Contact */}
           <div className="md:justify-self-end">
-            <h4 className="text-slate-300 font-medium mb-5">Connect</h4>
+            <h4 className="text-xl text-slate-300 font-medium mb-5">Connect</h4>
             <div className="flex gap-5">
               <SocialLink href="https://github.com/Lartzmann" icon={FiGithub} />
               <SocialLink

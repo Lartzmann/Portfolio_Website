@@ -46,7 +46,7 @@ function Contact() {
 
   return (
     <section id="contact" className="py-24 text-[#94a3b8] max-w-6xl mx-auto">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto ">
         {submitted ? (
           <div className="text-center py-12 bg-gray-50 dark:bg-slate-800 border border-gray-200 dark:border-slate-700 shadow-lg">
             <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border-3 border-white">
