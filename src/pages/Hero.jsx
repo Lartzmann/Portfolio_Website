@@ -33,8 +33,8 @@ function Hero() {
               </a>
               {/* Download CV Button */}
               <a
-                href="/CV-Portfolio-Emmanuel.docx"
-                download="CV-Portfolio-Emmanuel.docx"
+                href="/Emmanuel_Teye_Lartey_CV.pdf"
+                download="Emmanuel_Teye_Lartey_CV.pdf"
                 className="bg-[#3b82f6] text-white text-center rounded-lg px-4 py-3 hover:cursor-pointer hover:scale-102 transition duration-500 ease-in-out flex justify-center items-center gap-3"
               >
                 Download CV

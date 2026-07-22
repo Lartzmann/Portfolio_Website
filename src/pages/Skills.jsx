@@ -1,6 +1,6 @@
 // src/components/SkillsSection.jsx
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiExpress, SiMongodb, SiGit, SiGithub } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiPostgresql, SiGit, SiGithub, SiFigma, SiPrisma   } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import SkillsCategory from "../components/SkillsCategory";
 
@@ -16,13 +16,15 @@ const Skills = () => {
   const backendSkills = [
     { icon: FaNodeJs, name: "Node.js" },
     { icon: SiExpress, name: "Express" },
-    { icon: SiMongodb, name: "MongoDB" },
+    { icon: SiPostgresql, name: "PostgreSQL" },
+    { icon: SiPrisma , name: "Prisma" },
   ];
 
   const tools = [
     { icon: SiGit, name: "Git" },
     { icon: SiGithub, name: "GitHub" },
     { icon: VscVscode, name: "VSCode" },
+    { icon: SiFigma , name: "Figma" },
   ];
 
   return (
@@ -30,7 +32,7 @@ const Skills = () => {
       <h1 className="text-2xl md:text-4xl text-center font-bold mb-8">Skills</h1>
 
       <SkillsCategory title="Frontend" skills={frontendSkills} />
-      <SkillsCategory title="Backend" skills={backendSkills} />
+      <SkillsCategory title="Backend & DB" skills={backendSkills} />
       <SkillsCategory title="Tools" skills={tools} />
     </div>
   );
